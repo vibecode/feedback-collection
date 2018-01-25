@@ -5,7 +5,6 @@ const passport = require('passport')
 const keys = require('./config/keys')
 require('./models/User')
 require('./services/passport')
-import style from 'materialize-css/dist/css/materialize.min.css'
 
 mongoose.connect(keys.mongoURI)
 
