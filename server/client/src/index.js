@@ -17,3 +17,5 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root'))
 registerServiceWorker();
+
+console.log(process.env.REACT_APP_STRIPE_KEY);
