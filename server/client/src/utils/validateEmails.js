@@ -5,7 +5,6 @@ export default (emails) => {
       .split(',')
       .map(email => email.trim())
       .filter(email => regex.test(email) === false)
-  console.log(invalidEmails);
   if (invalidEmails.length) {
     return `These emails are invalid: ${invalidEmails}`
   }
